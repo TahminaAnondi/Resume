@@ -1,0 +1,181 @@
+%-------------------------
+% Resume in Latex
+% Author : Tahmina Akter Anondi
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\usepackage[margin=0.75in]{geometry}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://sourabhbajaj.com/}{\Large Tahmina Akter Anondi}} & Email : \href{mailto:tahmina.akter.anondi@gmail.com}{tahmina.akter.anondi@gmail.com}\\
+  & Mobile : \href{tel:+13185321485}{318-532-1485} \\
+  \href{https://github.com/TahminaAnondi}{GitHub: TahminaAnondi} & \href{https://www.kaggle.com/tahminaanondi}{Kaggle: tahminaanondi} \\
+  \href{linkedin.com/in/tahmina-akter-anondi-846644118/}{LinkedIn: tahmina-akter-anondi-846644118} \\
+  \textit{Flat-1222B, 8445 Youree Dr, Shreveport, LA 71115}
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Louisiana State University Shreveport}{Shreveport, LA}
+      {Master of Science in Computer Systems Technology}{Aug 2023 - Cont.}
+      
+      {GPA: 4.00}
+    \resumeSubheading
+      {Green University of Bangladesh}{Mirpur, Dhaka}
+      {Bachelor of Science in Computer Science and Engineering}{Jan 2013 - Feb 2017}
+      
+      {CGPA: 3.80}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Southtech Group, Uttara}{Uttara, Bangladesh}
+      {Analyst Programmer}{Oct 2017 - Dec 2020}
+      \resumeItemListStart
+        \resumeItem{Managing development projects}
+          {Supported customers, conducted requirement analysis, designed technical solutions}
+        \resumeItem{Code Development}
+          {Wrote and reviewed code, managed website, built CRM project}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Southtech Group, Uttara}{Uttara, Bangladesh}
+      {Internship}{Jul 2017 - Sep 2017}
+      \resumeItemListStart
+        \resumeItem{Website Management}
+          {Managed and handled website, built customer relationship management project}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Job Portal}
+      {Developed job portal site for Prime Bank using ASP.NET, SQL Server 2012, AJAX, jQuery}
+    \resumeSubItem{Inventory Management System}
+      {Designed and developed inventory management system for Organic Nutrition using ASP.NET, SQL Server 2014, AJAX, jQuery}
+    \resumeSubItem{eCommerce}
+      {Designed and developed eCommerce for Organic Nutrition using ASP.NET, SQL Server 2014, AJAX, jQuery}
+    \resumeSubItem{Internal Directory System}
+      {Designed and developed internal directory system for Southtech Group using ASP.NET, SQL Server 2014, AJAX, jQuery}
+    \resumeSubItem{Membership Portal}
+      {Designed and developed membership portal for Cadet College Club using ASP.NET, SQL Server 2014, AJAX, jQuery}
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH EXPERIENCE-----------------
+%-----------RESEARCH EXPERIENCE-----------------
+\section{Research Experience}
+\resumeSubHeadingListStart
+    \resumeSubItem{Current Research Interests}
+      {Medical image segmentation using deep learning (Supervisor: Subhajit Chakrabarty, PhD); writing review papers on technology related to sensors (Supervisor: Dr. Wang)}
+    \resumeSubItem{Undergraduate Thesis Work}
+      {Thesis title: “Expert System for diagnosing HIV-1 protease cleavage sites using Bayesian decision theory”}
+      {Supervisor: Dip Mozahar}
+    
+\resumeSubHeadingListEnd
+
+
+%-----------ADDITIONAL EXPERIENCE-----------------
+\section{Current Position}
+\resumeSubHeadingListStart
+  {I am a research assistant, doing research with two of my professors. I’m passionate about Java and Python. During my research (machine learning and writing a review paper for another professor), I am working with Python, OpenCV, and Google Colab. I am actively seeking internships.}
+\resumeSubHeadingListEnd
+
+%-----------RESEARCH INTERESTS-----------------
+\section{Research Interests}
+\resumeSubHeadingListStart
+    \resumeSubItem{Medical Image Segmentation using Deep Learning}
+      {Supervisor: Subhajit Chakrabarty, PhD}
+    \resumeSubItem{Writing Review Papers on Sensor Technologies}
+      {Supervisor: Zhonghui Wang, PhD}
+\resumeSubHeadingListEnd
+
+%-----------REFERENCES-----------------
+\section{References}
+
+    \begin{tabular}{@{}p{0.45\linewidth}p{0.45\linewidth}@{}}
+                \textbf{Subhajit Chakrabarty, PhD} & \textbf{Zhonghui Wang, PhD} \\
+                Louisiana State University Shreveport & Louisiana State University Shreveport \\
+                Director of Master of Science in CST & Assistant Professor \\
+                Email: \href{mailto:subhajit.chakrabarty@lsus.edu}{subhajit.chakrabarty@lsus.edu} & Email: \href{mailto:zhonghui.wang@lsus.edu}{zhonghui.wang@lsus.edu}
+    \end{tabular}
+\end{document}
+
